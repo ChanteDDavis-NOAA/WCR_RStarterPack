@@ -10,9 +10,6 @@ editor_options:
 
 </br>
 
-We are excited that you will be joining us for this workshop! Please fill out this [google form](https://docs.google.com/forms/d/e/1FAIpQLSd6yThLtJLjAICFzvOkPGoAou3aJcD-4s-7uhVFfQI3hVaoMQ/viewform?usp=sf_link) to let us know that you will be joining us. 
-
-### Here is the [YouTube playlist recording](https://www.youtube.com/playlist?list=PLJI4SWhcIx2gdco0peJg5WJGSHg8L_Al6) of the workshop.
 
 Let us know what you thought of the workshop by filling out of the [google form](https://docs.google.com/forms/d/e/1FAIpQLSfaTfffgaZj8sBTEU6Kk1bbr98RnbYglbiT3pJJ-3rxZSvIkA/viewform?vc=0&c=0&w=1&flr=0&gxids=7757)!
 
@@ -181,10 +178,10 @@ function main() {
 $(document).ready(main);
 ```
 
-## Tuesday, September 22, 2020
+## Tuesday, January 5, 2020
 
 ```{r}
-program1<-program[grepl(pattern = "Tuesday, September 22, 2020", x = Agenda0$Date), ]
+program1<-program[grepl(pattern = "Tuesday, January 5, 2020", x = Agenda0$Date), ]
 
 div(
   class = "schedule",
@@ -210,10 +207,10 @@ div(
 <br>
 
 
-## Wednesday, September 23, 2020
+## Wednesday, January 6, 2020
 
 ```{r}
-program1<-program[grepl(pattern = "Wednesday, September 23, 2020", x = Agenda0$Date), ]
+program1<-program[grepl(pattern = "Wednesday, January 6, 2020", x = Agenda0$Date), ]
 
 div(
   class = "schedule",
@@ -239,10 +236,10 @@ div(
 <br>
 
 
-## Thursday, September 24, 2020
+## Thursday, January 7, 2020
 
 ```{r}
-program1<-program[grepl(pattern = "Thursday, September 24, 2020", x = Agenda0$Date), ]
+program1<-program[grepl(pattern = "Thursday, January 7, 2020", x = Agenda0$Date), ]
 
 div(
   class = "schedule",

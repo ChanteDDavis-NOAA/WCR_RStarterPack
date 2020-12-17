@@ -1,5 +1,5 @@
 ---
-title: "R Workshop for Social Scientists"
+title: "R for management"
 output:
   html_document:
     includes:
@@ -8,7 +8,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-## **This is the website for all of the materials you'll need for the workshop.** 
+## **This is the website for all of the materials you'll need for the class.** 
 
 ### Enjoy!
 
