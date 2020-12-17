@@ -27,7 +27,7 @@ library(here)
 ```{r}
 
 #Agenda <- data.frame(read_csv("./R Workshop Detailed Schedule.csv", col_names = FALSE))
-Agenda <- data.frame(read_csv("./R Workshop Detailed Schedule.csv", col_names = FALSE))
+Agenda <- data.frame(read_csv("./R_Workshop_Detailed_Schedule.csv", col_names = FALSE))
 # Agenda <- data.frame(read_csv(here("R Workshop Detailed Schedule.csv"), col_names = FALSE))
 names(Agenda)<-Agenda[2,]
 Agenda<-Agenda[-c(1:2),]
@@ -178,10 +178,10 @@ function main() {
 $(document).ready(main);
 ```
 
-## Tuesday, January 5, 2020
+## Tuesday, January 12, 2020
 
 ```{r}
-program1<-program[grepl(pattern = "Tuesday, January 5, 2020", x = Agenda0$Date), ]
+program1<-program[grepl(pattern = "Tuesday, January 12, 2020", x = Agenda0$Date), ]
 
 div(
   class = "schedule",
@@ -207,10 +207,10 @@ div(
 <br>
 
 
-## Wednesday, January 6, 2020
+## Wednesday, January 13, 2020
 
 ```{r}
-program1<-program[grepl(pattern = "Wednesday, January 6, 2020", x = Agenda0$Date), ]
+program1<-program[grepl(pattern = "Wednesday, January 13, 2020", x = Agenda0$Date), ]
 
 div(
   class = "schedule",
@@ -236,10 +236,10 @@ div(
 <br>
 
 
-## Thursday, January 7, 2020
+## Thursday, January 14, 2020
 
 ```{r}
-program1<-program[grepl(pattern = "Thursday, January 7, 2020", x = Agenda0$Date), ]
+program1<-program[grepl(pattern = "Thursday, January 14, 2020", x = Agenda0$Date), ]
 
 div(
   class = "schedule",
