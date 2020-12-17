@@ -24,27 +24,11 @@ library(DT)
 # library(gh)
 
 
-members<-data.frame("Name" = c("Aaron Mamula", "Emily Markowitz", "Erin Steiner", 
-                               "Rob Ames", "Ben Fissel", "Geret Depiper", 
-                               "Allen Chen"), 
-                    "First Name" = c("Aaron", "Emily", "Erin", "Rob", "Ben", "Geret", "Allen"),
-                    "Last Name" = c("Mamula", "Markowitz", "Steiner", "Ames", "Fissel", "Depiper", "Chen"),
-                    "github" = c("aaronmams", "emilyhmarkowitz", "erinsteiner-NOAA",
-                                 "", "", "gdepiper",  
-                                 "allen-chen-noaa-gov"), 
-                    "lat" = c(36.956806, 41.197558, 47.640816, 
-                              45.510209, 47.640816, 41.526796, 
-                              47.640816), 
-                    "lon" = c(-122.021390, -73.897447, -122.336197, 
-                              -122.669898, -122.3361978, -70.675144,  
-                              -122.336197), 
-                    "Institution" = c("Southwest Fisheries Science Center", 
-                                      "Office of Science and Technology/Alaska Fisheries Science Center", 
-                                      "Northwest Fisheries Science Center", 
-                                      "Pacific States Marine Fisheries Commission", 
-                                      "Alaska Fisheries Science Center", 
-                                      "Northeast Fisheries Science Center", 
-                                      "Northwest Fisheries Science Center"))
+members<-data.frame("Name" = c("Chante Davis", "Diana Dishman"), 
+                    "First Name" = c("Chante", "Diana"),
+                    "Last Name" = c("Davis", "Dishman"),
+                    "github" = c("ChanteDDavis-NOAA", "DianaDishman-NOAA"), 
+                    "Institution" = c("West Coast Region, Sustainable Fisheries Division", "West Coast Region, Protected Resiyrces"))
 members$imagelink<-members$githublink<-NA                 
 members$Status<-"Presenter"
 for (i in 1:nrow(members)) {
@@ -73,44 +57,6 @@ print0<-glue_data(.x = membersgit, .sep = "",
 
 
 
-```
-
-
-```{r}
-# m <- leaflet() %>%
-#   addTiles() %>%  # Add default OpenStreetMap map tiles
-#   addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
-library(leafpop)
-library(maps)
-
-
-mapStates = map("state", fill = TRUE, plot = FALSE)
-# leaflet(data = mapStates) %>% 
-leaflet() %>%
-  addTiles() %>%
-  # addPolygons(fillColor = topo.colors(10, alpha = NULL), stroke = FALSE) %>%
-  
-    addMarkers(lng=members$lon, lat=members$lat, group = "points",
-             popup=paste("<b>", members$Name, "</b> 
-                         <br/> ", members$Institution, 
-                         "<br/> ", ifelse(members$github %in% "", "", 
-                                          paste0("<a href = ", members$GitHub, "> GitHub </a> "))))
-  
-  # addMarkers(lng=membersnogit$lon, lat=membersnogit$lat, group = "points",
-  #            popup=paste("<b>", membersnogit$Name, "</b> 
-  #                        <br/> ", membersnogit$Institution, 
-  #                        "<br/> ", ifelse(membersnogit$github %in% "", "", 
-  #                                         paste0("<a href = ", membersnogit$GitHub, "> GitHub </a> ")))) %>%
-  # 
-  # addMarkers(lng=membersgit$lon, lat=membersgit$lat, group = "withgit",
-  #            popup=paste("<b>", membersgit$Name, "</b> 
-  #                        <br/> ", membersgit$Institution, 
-  #                        "<br/> ", ifelse(membersgit$github %in% "", "", 
-  #                                         paste0("<a href = ", membersgit$GitHub, "> GitHub </a> ")))) %>%
-  # 
-  # addPopupImages(image = membersgit$imagelink, group = "withgit", width = 300, height = 350)#width = 2*(300*2), height = 2*(350/8))
-
-# vwidth = 300, vheight = 350
 ```
 
 
