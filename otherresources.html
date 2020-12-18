@@ -51,6 +51,15 @@
 
 </html>
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
@@ -95,6 +104,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 
 
@@ -301,42 +311,42 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="about.html">
-    <span class="fa fa-briefcase"></span>
+    <span class="fas fa-briefcase"></span>
      
     About
   </a>
 </li>
 <li>
   <a href="sessions.html">
-    <span class="fa fa-calendar"></span>
+    <span class="fas fa-calendar"></span>
      
     Agenda
   </a>
 </li>
 <li>
   <a href="pre-meet.html">
-    <span class="fa fa-check"></span>
+    <span class="fas fa-check"></span>
      
     Pre-meet materials
   </a>
 </li>
 <li>
   <a href="otherresources.html">
-    <span class="fa fa-plus"></span>
+    <span class="fas fa-plus"></span>
      
     Other Resources
   </a>
 </li>
 <li>
   <a href="members.html">
-    <span class="fa fa-user"></span>
+    <span class="fas fa-user"></span>
      
     Presenters
   </a>
 </li>
 <li>
   <a href="discussion.html">
-    <span class="fa fa-question"></span>
+    <span class="fas fa-question"></span>
      
     Discussion
   </a>
@@ -357,19 +367,19 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="mailto:emily.markowitz@noaa.gov">
-    <span class="fa fa-envelope-o"></span>
+    <span class="fas fa-envelope-o"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/emilyhmarkowitz/RWorkshopForSocialScientists">
-    <span class="fa fa-github"></span>
+    <span class="fas fa-github"></span>
      
   </a>
 </li>
 <li>
   <a href="https://drive.google.com/drive/folders/1gzMhlkt-rbpKAGaf7_F9zCOjFTtdaU6T?usp=sharing">
-    <span class="fa fa-google"></span>
+    <span class="fas fa-google"></span>
      
   </a>
 </li>
@@ -388,8 +398,8 @@ $(document).ready(function () {
 
 
 <p></br></p>
-<p>We are excited that you will be joining us for this workshop! Please fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6yThLtJLjAICFzvOkPGoAou3aJcD-4s-7uhVFfQI3hVaoMQ/viewform?usp=sf_link">google form</a> to let us know that you will be joining us.</p>
 <p><em>Please click on the title to see the session description</em></p>
+<p><br></p>
 <style type="text/css">
 .schedule {
   display: flex;
@@ -713,7 +723,7 @@ $(document).ready(main);
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
