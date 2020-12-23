@@ -8,10 +8,15 @@ editor_options:
   chunk_output_type: console
 ---
 
+<<<<<<< HEAD
+=======
+<br>
+>>>>>>> 94935a1ef5b50cd8dd5e1db7f4810393ae3b2dfa
 <font size="5.5"> We are excited that you will be joing us!  The links provided on this page were created by Aaron Mamula for a NOAA workshop in 2020 titled R Workshop for Social Scientist.  We recognize that there are many different ways to code, these videos hopefully provide a place to start and we've found them very useful.
 
-*Please click on the title to see the session description*
+<font size = 4.5>*Please click on the title to see the session description*
 
+<br>
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning=FALSE, error = FALSE, message = FALSE)
 library(tidyverse)
