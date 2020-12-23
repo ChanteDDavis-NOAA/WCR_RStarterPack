@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -15,16 +15,50 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>R Workshop for Social Scientists</title>
+
+<link rel="shortcut icon" href="https://www.noaa.gov/sites/all/themes/custom/noaa/favicon.ico" />
+<link rel="manifest" href="./icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="./css/bootstrap_insta.min.css">
+    <link rel="stylesheet" href="./css/magnific_insta.css"> -->
+    <link rel="stylesheet" href="./css/style_insta.css">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.min.css">
+
+</head>
+
+
+</html>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -72,9 +106,8 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
+
 
 <style type = "text/css">
 .main-container {
@@ -88,7 +121,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -99,40 +131,79 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
-
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -154,19 +225,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -179,62 +305,81 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">R in Grenoble</a>
+      <a class="navbar-brand" href="index.html"><p><img id="logo" style="width: 20px;" src="Noaa_logo.png" /> R Workshop for Social Scientist </p></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="orga.html">
-    <span class="fa fa-sitemap"></span>
+  <a href="about.html">
+    <span class="fas fa-briefcase"></span>
      
-    Orga
-  </a>
-</li>
-<li>
-  <a href="calendar.html">
-    <span class="fa fa-calendar"></span>
-     
-    Calendar
+    About
   </a>
 </li>
 <li>
   <a href="sessions.html">
-    <span class="fa fa-calendar"></span>
+    <span class="fas fa-calendar"></span>
      
-    Sessions
+    Agenda
+  </a>
+</li>
+<li>
+  <a href="pre-meet.html">
+    <span class="fas fa-check"></span>
+     
+    Pre-meet materials
+  </a>
+</li>
+<li>
+  <a href="otherresources.html">
+    <span class="fas fa-plus"></span>
+     
+    Other Resources
   </a>
 </li>
 <li>
   <a href="members.html">
-    <span class="fa fa-user"></span>
+    <span class="fas fa-user"></span>
      
-    Members
+    Presenters
   </a>
 </li>
 <li>
-  <a href="https://r-in-grenoble.github.io/blog/">
-    <span class="fa fa-rss"></span>
+  <a href="discussion.html">
+    <span class="fas fa-question"></span>
      
-    Blog
+    Discussion
   </a>
+</li>
+<li>
+  <a href="les_BestScriptingPractices.nb.html"></a>
+</li>
+<li>
+  <a href="les_Lesson-3-More-Data-Import-Examples.html"></a>
+</li>
+<li>
+  <a href="les_sfconsmod_final_2col.html"></a>
+</li>
+<li>
+  <a href="les_sfconsmod_riskfactors_subplots.html"></a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="mailto:florian.prive@univ-grenoble-alpes.fr,magali.richard@univ-grenoble-alpes.fr">
-    <span class="fa fa-envelope-o"></span>
+  <a href="mailto:emily.markowitz@noaa.gov">
+    <span class="fas fa-envelope-o"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://twitter.com/hashtag/rusersgrenoble?src=hash">
-    <span class="fa fa-twitter"></span>
+  <a href="https://github.com/emilyhmarkowitz/RWorkshopForSocialScientists">
+    <span class="fas fa-github"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://github.com/r-in-grenoble/r-in-grenoble.github.io">
-    <span class="fa fa-github"></span>
+  <a href="https://drive.google.com/drive/folders/1gzMhlkt-rbpKAGaf7_F9zCOjFTtdaU6T?usp=sharing">
+    <span class="fas fa-google"></span>
      
   </a>
 </li>
@@ -252,22 +397,20 @@ $(document).ready(function () {
 </div>
 
 
-<p>When you have a problem in R:</p>
+<div id="get-help-give-help" class="section level2">
+<h2>Get Help &amp; Give Help!</h2>
+<p><br> <font size = 4.5> When you have a problem in R:</p>
 <ol style="list-style-type: decimal">
-<li>Read the documentation: use <code>?</code> or, equivalently, <code>help</code>.</li>
-<li>Google it (someone probably already had the same problem and someone else probably told him a way to fix it, probably on <a href="https://stackoverflow.com/">StackOverflow</a>).</li>
-<li>Ask it on Stack Overflow (SO) after checking that your question has not already been asked.</li>
-<li>Come to one of our working sessions to get help and give help about R code. During these sessions, one could help you to post your first question on SO.</li>
+<li><p>Read the documentation: use <code>?</code> or, equivalently, <code>help</code>.</p></li>
+<li><p>Google it (someone probably already had the same problem and someone else probably told him a way to fix it, probably on <a href="https://stackoverflow.com/">StackOverflow</a>).</p></li>
+<li><p>Ask it on Stack Overflow (SO) after checking that your question has not already been asked. Some guidelines and resources are available at <a href="https://stackoverflow.com/tags/r/info">SO</a>.</p></li>
+<li><p>Send your question to the noaa coding club, we may not have an answer but we’ll try to help you trouble shoot. This email is accessed by volunteers who have offered to help others with coding nmfs.wcr.codingclub</p></li>
 </ol>
-<p>Some guidelines and resources are available at <a href="https://stackoverflow.com/tags/r/info">SO</a>.</p>
-<p>We also propose to reference all the unanswered [r] questions of our members so that we can all answer them. For that, you just have to give your SO ID in your member infos. If you want to add one, please <a href="mailto::florian.prive@univ-grenoble-alpes.fr">email me</a>.</p>
-<div id="unanswered-r-questions-of-grenoble-users" class="section level3">
-<h3>Unanswered [r] questions of Grenoble useRs</h3>
-<ul>
-<li><p><a href='https://stackoverflow.com/questions/45715786/call-active-field-of-inherited-parent-reference-class' target='_blank'>Call active field of inherited parent reference class</a></p></li>
-<li><p><a href='https://stackoverflow.com/questions/45932318/r-travis-osx-clang-error-unsupported-option-fopenmp' target='_blank'>R Travis OSX - clang: error: unsupported option ‘-fopenmp’</a></p></li>
-<li><p><a href='https://stackoverflow.com/questions/46401154/embed-htmlwidget-of-external-webpage-in-r-markdown-html-document' target='_blank'>Embed htmlwidget of external webpage in R markdown HTML document</a></p></li>
-</ul>
+<p><br></p>
+<p>Printable <a href="https://www.rstudio.com/resources/cheatsheets/">cheat sheets</a> have been created for RStudio. They describe a variety of packages and functions within the packages. We’ve found them to be super helpful as a quick references. There are several references that have more detail, <a href="https://cran.r-project.org/">An Introduction to R</a>, and <a href="http://r4ds.had.co.nz/">R for Data Science</a> are two examples.</p>
+<p><br></p>
+<p><font size = 6> Continuing coding practice</p>
+<p><font size = 4.5>There are coding clubs to check out where you can practice your coding <a href="https://github.com/rfordatascience/tidytuesday">Tidy Tuesday</a></p>
 </div>
 
 
@@ -279,7 +422,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -287,6 +430,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

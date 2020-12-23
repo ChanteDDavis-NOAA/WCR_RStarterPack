@@ -10,10 +10,10 @@ editor_options:
 
 </br>
 
-We are excited that you will be joining us for this workshop! Please fill out this [google form](https://docs.google.com/forms/d/e/1FAIpQLSd6yThLtJLjAICFzvOkPGoAou3aJcD-4s-7uhVFfQI3hVaoMQ/viewform?usp=sf_link) to let us know that you will be joining us. 
 
 *Please click on the title to see the session description*
 
+<br>
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning=FALSE, error = FALSE, message = FALSE)
 library(tidyverse)
