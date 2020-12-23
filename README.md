@@ -8,7 +8,7 @@ This course will be held virtuually January 12 -14, 2021
 For more information, check out the course's website at https://chanteddavis-noaa.github.io/WCR_RStarterPack/about.html
 
 <br>
-## The course will be co-hosted by:
+## co-hosted by:
 
 Chante Davis (@chanteddavis-NOAA)
 
