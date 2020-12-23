@@ -1,7 +1,7 @@
 
 <br>
 
-# R Starter Course for WCR NOAA Fisheries Management
+### R Starter Course for WCR NOAA Fisheries Management
 
 This course will be held virtuually January 12 -14, 2021
 
