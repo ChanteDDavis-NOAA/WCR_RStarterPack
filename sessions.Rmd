@@ -11,26 +11,8 @@ editor_options:
 </br>
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-## Course Agenda (Pacific Time) and Lessons
-=======
-## Course Agenda (Pacific Time) and Lessons
-
->>>>>>> 94935a1ef5b50cd8dd5e1db7f4810393ae3b2dfa
-
 *Please click on the title to see the session description*
 <br>
-
-
-=======
-## Course Agenda (Pacific Time) and Lessons
-
-
-*Please click on the title to see the session description*
-<br>
->>>>>>> 94935a1ef5b50cd8dd5e1db7f4810393ae3b2dfa
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning=FALSE, error = FALSE, message = FALSE)
