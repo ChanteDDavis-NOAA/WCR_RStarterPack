@@ -1,45 +1,31 @@
-# Make your website with R Markdown in minutes
 
-This is a template (and tutorial) for creating your website with R Markdown in minutes.
+<br>
 
-The official document from RStudio can be found [here](http://rmarkdown.rstudio.com/rmarkdown_websites.html).
+# R Starter Course for WCR NOAA Fisheries Management
 
-## Procedure
+This course will be held virtuually January 12 -14, 2021
 
-### Prerequisites
+For more information, check out the course's website at https://chanteddavis-noaa.github.io/WCR_RStarterPack/about.html
 
-- Make sure that you have the latest versions of R, RStudio and package rmarkdown. I had problems of encoding because of that. 
-- Make sure that you have enabled Git in RStudio. More information can be found [there](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN).
-- You need a GitHub account.
+<br>
+## The course will be co-hosted by:
 
-### Make the first version of your website
+Chante Davis (@chanteddavis-NOAA)
 
-- Fork this repo (use the green button "Clone" and make sure you use SSH, not HTTPS) and rename it to be 'YOURGITHUB.github.io' (in Settings of your brand new repo).
-- Get the link from cloning the repo. Then, go to RStudio, create a New Project > Version Control > Git and copy this link. You have cloned your new repo as an R project.
-- Use `rmarkdown::render_site(encoding = "UTF-8")` in the console.
-- Commit and push everything from RStudio.
-- Go see your new website at https://YOURGITHUB.github.io/.
+Diana Dishman (@dianadishman-NOAA)
 
-### Change the content of your website
+<br>
 
-- Modify `_site.yml`, `index.Rmd`, `about.Rmd`, `cv.Rmd` and `CV.pdf` with your own content. 
-- Use `rmarkdown::render_site(encoding = "UTF-8")` again. At any moment, you can preview your website locally, by rendering your site and viewing any of your local html file in your Web Browser. 
-- Commit and push everything from RStudio.
-- Go see your new website with your own content at https://YOURGITHUB.github.io/.
+##  Class Materials
 
-### The blog part
+- Make sure that you have the latest versions of The R Project [here](https://www.r-project.org/) and the interfacece RStudio [here](https://rstudio.com/). 
 
-For now, the 'Blog' link is giving a 404 page. 
 
-If you want to add a static blog to your webpage, go [there](https://github.com/privefl/jekyll-now-r-template).
+## NOAA readme
 
-## An example
+This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.
 
-You can see for example [my own website](https://privefl.github.io/).
+### License
+Software code created by U.S. Government employees is not subject to copyright in the United States (17 U.S.C. §105). The United States/Department of Commerce reserve all rights to seek and obtain copyright protection in countries other than the United States for Software authored in its entirety by the Department of Commerce. To this end, the Department of Commerce hereby grants to Recipient a royalty-free, nonexclusive license to use, copy, and create derivative works of the Software outside of the United States.
 
-## Conclusion
 
-As a reminder, all credit goes to the geniuses at RStudio (thanks also to [GitHub pages](https://pages.github.com/)). I just made some minor modifications and made a tuto about how to use all this together.
-
-If anything is false or not clear enough, feel free to contact me or open an issue.
-If it is an issue only related with R Markdown, you'll find a better answer posting [there](https://github.com/rstudio/rmarkdown).
