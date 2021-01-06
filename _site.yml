@@ -1,4 +1,4 @@
-name: "R Workshop for Social Scientist"                                  # CHANGE HERE 
+name: "West Coast Region Rstarter course"                                  # CHANGE HERE 
 output_dir: "."
 navbar:
   title: "<p><img id=\"logo\" style=\"width: 20px;\" src=\"Noaa_logo.png\" /> R Workshop for Social Scientist </p>"    
@@ -9,7 +9,7 @@ navbar:
     - text: "Agenda"
       icon: fa-calendar
       href: sessions.html  
-    - text: "Pre-meet materials"
+    - text: "Get started videos"
       icon: fa-check
       href: pre-meet.html  
     - text: "Other Resources"
@@ -18,9 +18,9 @@ navbar:
     - text: "Presenters"
       icon: fa-user 
       href: members.html
-    - text: "Discussion"
+    - text: "help"
       icon: fa-question 
-      href: discussion.html
+      href: help.html
     - text: ""
       href: les_BestScriptingPractices.nb.html
     - text: ""
@@ -31,9 +31,9 @@ navbar:
       href: les_sfconsmod_riskfactors_subplots.html
   right:
     - icon: fa-envelope-o
-      href: mailto:emily.markowitz@noaa.gov                      # CHANGE HERE 
+      href: mailto:chante.davis@noaa.gov                      # CHANGE HERE 
     - icon: fa-github
-      href: https://github.com/emilyhmarkowitz/RWorkshopForSocialScientists         # CHANGE HERE 
+      href: https://chanteddavis-noaa.github.io/WCR_RStarterPack/         # CHANGE HERE 
     - icon: fa-google
       href: https://drive.google.com/drive/folders/1gzMhlkt-rbpKAGaf7_F9zCOjFTtdaU6T?usp=sharing
 output:
