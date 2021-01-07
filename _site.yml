@@ -11,13 +11,13 @@ navbar:
       href: sessions.html  
     - text: "Get started videos"
       icon: fa-check
-      href: pre-meet.html  
+      href: Get_Started.html  
     - text: "Other Resources"
       icon: fa-plus 
       href: otherresources.html
     - text: "Presenters"
-      icon: fa-user 
-      href: members.html
+      icon: fa-users 
+      href: presenters.html
     - text: "help"
       icon: fa-question 
       href: help.html
