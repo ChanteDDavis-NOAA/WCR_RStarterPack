@@ -17,7 +17,7 @@ navbar:
       href: otherresources.html
     - text: "Presenters"
       icon: fa-users 
-      href: presenters.html
+      href: Presenters.html
     - text: "help"
       icon: fa-question 
       href: help.html

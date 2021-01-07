@@ -28,7 +28,7 @@ members<-data.frame("Name" = c("Chante Davis", "Diana Dishman"),
                     "First Name" = c("Chante", "Diana"),
                     "Last Name" = c("Davis", "Dishman"),
                     "github" = c("ChanteDDavis-NOAA", "DianaDishman-NOAA"), 
-                    "Institution" = c("West Coast Region, Sustainable Fisheries Division", "West Coast Region, Protected Resiyrces"))
+                    "Institution" = c("West Coast Region, Sustainable Fisheries Division", "West Coast Region, Protected Resources"))
 members$imagelink<-members$githublink<-NA                 
 members$Status<-"Presenter"
 for (i in 1:nrow(members)) {
