@@ -7,10 +7,12 @@ output:
 editor_options: 
   chunk_output_type: console
 ---
+
 <br>
+
 ## **This is the website for all of the materials you'll need for the class.** 
 
 <br>
-### Enjoy!
 
-## Adelaide likes fish
+Enjoy!
+

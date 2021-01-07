@@ -1,5 +1,5 @@
 ---
-title: "Pre-meet Materials"
+title: "Get Started"
 output:
   html_document:
     includes:
