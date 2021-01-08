@@ -67,4 +67,4 @@ datatable(select(members, c(Name, Institution, GitHub)),
               rownames = FALSE, escape = FALSE, options = list(dom = 't'))
 ```
 
-# `r print0 `
+
