@@ -30,6 +30,11 @@ Printable [cheat sheets](https://www.rstudio.com/resources/cheatsheets/) have be
 
 <font size = 4.5>There are coding clubs to check out where you can practice your coding [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday)
 
+The 2020 Use R conference has a series of lightening talks that are short but informative [useR](https://user2020.r-project.org/program/contributed/)
+
+Emily Markowitz created a fisheries report using r markdown, you can view the whole video [here](https://www.youtube.com/watch?v=-mycRwaC60A)
+
+
 
 
 

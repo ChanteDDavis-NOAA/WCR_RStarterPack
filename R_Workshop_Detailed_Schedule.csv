@@ -1,6 +1,6 @@
 ,,West Coast Region Rstarter course,,,,,,https://chanteddavis-noaa.github.io/WCR_RStarterPack/
 Date,Start Time (PT),End Time (PT),Course Segment,Topics,Presenter,Host,Chat/Q&A,Notes
-"Tuesday, January 12, 2020",9:00 AM,9:30 AM,Welcome!,a kickoff presentation ,Chante,Diana,Diana,
+"Tuesday, January 12, 2020",9:00 AM,9:30 AM,Welcome!,a kickoff presentation ,Chante,Diana,Diana,The slides from the presentation this morning
 "Tuesday, January 12, 2020",9:30 AM,10:15 AM,Intro to R & Rstudio,Coding Club tutorial,self-paced,Diana,Chante and Diana,Go to this tutorial: https://ourcodingclub.github.io/tutorials/intro-to-r/
 "Tuesday, January 12, 2020",10:15 AM,10:50 AM,Troubleshooting & Finding help,Coding Club tutorial,self-paced,Diana,Chante and Diana,Go to this tutorial: https://ourcodingclub.github.io/tutorials/troubleshooting/
 "Tuesday, January 12, 2020",11:00 AM,11:50 PM,Coding Etiquette,writing code style and best practices,Diana,Chante,Chante,Go to this tutorial: https://ourcodingclub.github.io/tutorials/etiquette/
@@ -27,16 +27,9 @@ Want more practice? Try this:
 
 4) What other sections do you think you'll need in your script?"
 "Tuesday, January 12, 2020",2:30 PM,3:00 PM,"""Nailed it!"" wrap up",Share what you attempted  to code,Chante and Diana,Diana,Chante and Diana,
-"Wednesday, January 13, 2020",9:00 AM,9:30 AM,Q&A and goals for today,,Diana,Chante,Chante,
-"Wednesday, January 13, 2020",9:30 AM,10:45 AM,Data Manipulation 1,Coding Club tutorial,self-paced,Diana,Diana and Laura,Go to this tutorial: https://ourcodingclub.github.io/tutorials/data-manip-intro/
-"Wednesday, January 13, 2020",10:45 AM,11:50 AM,Distributions & Linear Models,Coding Club tutorial,self-paced,Diana,Diana and Laura,"Go to this tutorial: https://ourcodingclub.github.io/tutorials/modelling/
-
- Distributions & linear models. 
-
-1)*optional* continue on to 'More practice: another model' 
-
-2) stop at Part 4 - no need to do GLM section*"
-"Wednesday, January 13, 2020",11:50 AM,12:00 PM,Morning Wrap Up,We will cover the highlights and common problems from today's topics,Chante,Diana,Diana and Laura,
+"Wednesday, January 13, 2020",9:00 AM,10:00 AM,Import your dataset!,,Chante,Diana,Chante and Diana,
+"Wednesday, January 13, 2020",10:00 AM,11:30 AM,Data Manipulation 1,Coding Club tutorial,self-paced,Diana,Diana and Laura,Go to this tutorial: https://ourcodingclub.github.io/tutorials/data-manip-intro/
+"Wednesday, January 13, 2020",11:30 AM,12:00 PM,Morning Wrap Up,We will cover the highlights and common problems from today's topics,Diana,Diana,Diana and Laura,
 "Wednesday, January 13, 2020",12:00 PM,1:00 PM,Lunch and Break,fuel yourself,,,,
 "Wednesday, January 13, 2020",1:00 PM,2:30 PM,Lab time with 1:1 support,You will work with your own dataset to try out building code using some of the tools that you have learned,Chante and Diana,Chante,Chante and Diana,"Tidy your imported data (answer your questions from yesterday).
 
