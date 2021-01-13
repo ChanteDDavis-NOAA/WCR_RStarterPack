@@ -1,0 +1,60 @@
+,,West Coast Region Rstarter course,,,,,,https://chanteddavis-noaa.github.io/WCR_RStarterPack/
+Date,Start Time (PT),End Time (PT),Course Segment,Topics,Presenter,Host,Chat/Q&A,Notes
+"Tuesday, January 12, 2020",9:00 AM,9:30 AM,Welcome!,a kickoff presentation ,Chante,Diana,Diana,The slides from the presentation this morning
+"Tuesday, January 12, 2020",9:30 AM,10:15 AM,Intro to R & Rstudio,Coding Club tutorial,self-paced,Diana,Chante and Diana,Go to this tutorial: https://ourcodingclub.github.io/tutorials/intro-to-r/
+"Tuesday, January 12, 2020",10:15 AM,10:50 AM,Troubleshooting & Finding help,Coding Club tutorial,self-paced,Diana,Chante and Diana,Go to this tutorial: https://ourcodingclub.github.io/tutorials/troubleshooting/
+"Tuesday, January 12, 2020",11:00 AM,11:50 PM,Coding Etiquette,writing code style and best practices,Diana,Chante,Chante,Go to this tutorial: https://ourcodingclub.github.io/tutorials/etiquette/
+"Tuesday, January 12, 2020",11:50:AM,12:00:AM,Morning Wrap Up,We will cover the highlights and common problems from today's topics,Diana,Chante,Chante,
+"Tuesday, January 12, 2020",12:00 PM,1:00 PM,Lunch and Break,fuel yourself,,,,
+"Tuesday, January 12, 2020",1:00 PM,2:30 PM,Lab time with 1:1 support,You will work with your own dataset to try out building code using some of the tools that you have learned,Chante and Diana,,Chante and Diana,"Set up an R project! 
+
+1) Initiate a new script. 
+
+2) Use good etiquette to organize and name things 
+
+3)Import your data. 
+
+4) View your data and make note of columns/rows you don't need. Also note columns/rows that you may need to create (don't worry about trying to do this yet - we'll cover it tomorrow).  
+
+
+Want more practice? Try this:
+
+1) What is the difference between Run and Source? 
+
+2) What does the magic wand do to your formatting? 
+
+3) What happens when you start introducing quotes? 
+
+4) What other sections do you think you'll need in your script?"
+"Tuesday, January 12, 2020",2:30 PM,3:00 PM,"""Nailed it!"" wrap up",Share what you attempted  to code,Chante and Diana,Diana,Chante and Diana,
+"Wednesday, January 13, 2020",9:00 AM,10:00 AM,Import your dataset!,Q&A and getting more practice the the material from yesterday,Chante,Diana,Chante and Diana,
+"Wednesday, January 13, 2020",10:00 AM,11:30 AM,Data Manipulation 1,Coding Club tutorial,self-paced,Diana,Diana and Laura,Go to this tutorial: https://ourcodingclub.github.io/tutorials/data-manip-intro/
+"Wednesday, January 13, 2020",11:30 AM,12:00 PM,Morning Wrap Up,We will cover the highlights and common problems from today's topics,Diana,Diana,Diana and Laura,
+"Wednesday, January 13, 2020",12:00 PM,1:00 PM,Lunch and Break,fuel yourself,,,,
+"Wednesday, January 13, 2020",1:00 PM,2:30 PM,Lab time with 1:1 support,You will work with your own dataset to try out building code using some of the tools that you have learned,Chante and Diana,Chante,Chante and Diana,"Tidy your imported data (answer your questions from yesterday).
+
+Change the variable data types as needed (Think about using clear variables). 
+
+Explore/summarize your data Create a basic linear model. Want more practice? Try this: 1) Use hist() and other base R plot commands (e.g., plot()) to investigate your data distribution. 
+
+2) Complete sections on glms and validating model assumptions. 
+
+3) Apply other (non-parametric, if appropriate) tests to your data"
+"Wednesday, January 13, 2020",2:30 PM,3:00 PM,"""Nailed it!"" wrap up",Share what you attempted  to code,Chante and Diana,Chante,Chante and Diana,
+"Thursday, January 14, 2020",9:00 AM,9:30 AM,Q&A goals and examples of data visualization,,Chante,Diana,Diana,
+"Thursday, January 14, 2020",9:30 AM,10:45 AM,Data Visualization 1,Coding Club tutorial,self-paced,Diana,Chante and Diana,https://ourcodingclub.github.io/tutorials/datavis/
+"Thursday, January 14, 2020",10:45 AM,11:50 AM,Getting Started with Rmarkdown,Coding Club tutorial,self-paced,Diana,Chante and Diana,https://ourcodingclub.github.io/tutorials/rmarkdown/
+"Thursday, January 14, 2020",11:50 PM,12:00 PM,Morning Wrap Up,We will cover the highlights and common problems from today's topics,Diana,Chante,Chante,
+"Thursday, January 14, 2020",12:30 PM,1:00 PM,Lunch and Break,fuel yourself,,,,
+"Thursday, January 14, 2020",1:00 PM,2:30 PM,Lab time with 1:1 support,You will work with your own dataset to try out building code using some of the tools that you have learned,Chante and Diana,Diana,Chante and Diana,"Decide on type of plot for your data. 
+
+Create a plot with labels and colors. Initiate a new Rmarkdown file Include your plot, a table of your model output, and explanatory text in the Rmd file Include an inline use of R in your text. 
+
+Want more? Try  this: 
+
+1) Make it pretty! Work with custom themes and colors 
+
+2) Try to apply a facet wrap (multiple panels) 
+
+3) Try to export your .Rmd as a PDF, word document, or presentation and adjust formatting. "
+"Thursday, January 14, 2020",2:30 PM,3:00 PM,"""Nailed it!"" wrap up",Share what you attempted  to code,Chante and Diana,Diana,Chante and Diana,
