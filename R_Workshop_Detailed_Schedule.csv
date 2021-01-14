@@ -1,12 +1,12 @@
 ,,West Coast Region Rstarter Course,,,,,,https://chanteddavis-noaa.github.io/WCR_RStarterPack/
 Date,Start Time (PT),End Time (PT),Course Segment,Topics,Presenter,Host,Chat/Q&A,Notes
-"Tuesday, January 12, 2020",9:00 AM,9:30 AM,Welcome!,a kickoff presentation ,Chante,Diana,Diana,The slides from the presentation this morning
-"Tuesday, January 12, 2020",9:30 AM,10:15 AM,Intro to R & Rstudio,Coding Club tutorial,self-paced,Diana,Chante and Diana,Go to this tutorial: https://ourcodingclub.github.io/tutorials/intro-to-r/
-"Tuesday, January 12, 2020",10:15 AM,10:50 AM,Troubleshooting & Finding help,Coding Club tutorial,self-paced,Diana,Chante and Diana,Go to this tutorial: https://ourcodingclub.github.io/tutorials/troubleshooting/
-"Tuesday, January 12, 2020",11:00 AM,11:50 PM,Coding Etiquette,writing code style and best practices,Diana,Chante,Chante,Go to this tutorial: https://ourcodingclub.github.io/tutorials/etiquette/
-"Tuesday, January 12, 2020",11:50:AM,12:00:AM,Morning Wrap Up,We will cover the highlights and common problems from today's topics,Diana,Chante,Chante,
-"Tuesday, January 12, 2020",12:00 PM,1:00 PM,Lunch and Break,fuel yourself,,,,
-"Tuesday, January 12, 2020",1:00 PM,2:30 PM,Lab time with 1:1 support,You will work with your own dataset to try out building code using some of the tools that you have learned,Chante and Diana,,Chante and Diana,"Set up an R project! 
+"Tuesday, January 12, 2021",9:00 AM,9:30 AM,Welcome!,a kickoff presentation ,Chante,Diana,Diana,The slides from the presentation this morning
+"Tuesday, January 12, 2021",9:30 AM,10:15 AM,Intro to R & Rstudio,Coding Club tutorial,self-paced,Diana,Chante and Diana,Go to this tutorial: https://ourcodingclub.github.io/tutorials/intro-to-r/
+"Tuesday, January 12, 2021",10:15 AM,10:50 AM,Troubleshooting & Finding help,Coding Club tutorial,self-paced,Diana,Chante and Diana,Go to this tutorial: https://ourcodingclub.github.io/tutorials/troubleshooting/
+"Tuesday, January 12, 2021",11:00 AM,11:50 PM,Coding Etiquette,writing code style and best practices,Diana,Chante,Chante,Go to this tutorial: https://ourcodingclub.github.io/tutorials/etiquette/
+"Tuesday, January 12, 2021",11:50:AM,12:00:AM,Morning Wrap Up,We will cover the highlights and common problems from today's topics,Diana,Chante,Chante,
+"Tuesday, January 12, 2021",12:00 PM,1:00 PM,Lunch and Break,fuel yourself,,,,
+"Tuesday, January 12, 2021",1:00 PM,2:30 PM,Lab time with 1:1 support,You will work with your own dataset to try out building code using some of the tools that you have learned,Chante and Diana,,Chante and Diana,"Set up an R project! 
 
 1) Initiate a new script. 
 
