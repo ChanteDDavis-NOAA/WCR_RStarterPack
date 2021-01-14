@@ -178,10 +178,10 @@ function main() {
 $(document).ready(main);
 ```
 
-## Tuesday, January 12, 2020
+## Tuesday, January 12, 2021
 
 ```{r}
-program1<-program[grepl(pattern = "Tuesday, January 12, 2020", x = Agenda0$Date), ]
+program1<-program[grepl(pattern = "Tuesday, January 12, 2021", x = Agenda0$Date), ]
 
 div(
   class = "schedule",
@@ -207,10 +207,10 @@ div(
 <br>
 
 
-## Wednesday, January 13, 2020
+## Wednesday, January 13, 2021
 
 ```{r}
-program1<-program[grepl(pattern = "Wednesday, January 13, 2020", x = Agenda0$Date), ]
+program1<-program[grepl(pattern = "Wednesday, January 13, 2021", x = Agenda0$Date), ]
 
 div(
   class = "schedule",
@@ -236,10 +236,10 @@ div(
 <br>
 
 
-## Thursday, January 14, 2020
+## Thursday, January 14, 2021
 
 ```{r}
-program1<-program[grepl(pattern = "Thursday, January 14, 2020", x = Agenda0$Date), ]
+program1<-program[grepl(pattern = "Thursday, January 14, 2021", x = Agenda0$Date), ]
 
 div(
   class = "schedule",
