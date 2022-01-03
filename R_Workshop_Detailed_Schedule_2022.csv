@@ -1,0 +1,35 @@
+,,West Coast Region Rstarter Course,,,,,,https://chanteddavis-noaa.github.io/WCR_RStarterPack/
+Date,Start Time (PT),End Time (PT),Course Segment,Topics,Presenter,Host,Chat/Q&A,Notes
+"Monday, January 3 - January 6, 2022",,,Prep week,"This week please download R and Rstudio
+Show Diana or Chante your dataset, and
+Complete a tutorial introduction to Rstudio",,,,
+,,,,,,,,
+"Tuesday, January 11, 2022",9:00 AM,9:00 - 10:00,Welcome!,"Introductions - roll call
+Today we will cover the R and Rstudio platform.   .",TBD,TBD,TBD,
+"Tuesday, January 11, 2022",10:00 AM,12:00 PM,Introduction to R and R studio,,self-paced,TBD,TBD,Go to this tutorial: https://ourcodingclub.github.io/tutorials/intro-to-r/
+"Tuesday, January 11, 2022",12:00 PM,12:30 PM,Morning Wrap Up,"""Nailed it!"" What have you learned, attempted, or acomplished",TBD,TBD,TBD,Go to this tutorial: https://ourcodingclub.github.io/tutorials/troubleshooting/
+,,,,,,,,Watch required tutorial: https://www.youtube.com/watch?v=u38nMNzvhoM&list=PLJI4SWhcIx2gdco0peJg5WJGSHg8L_Al6&index=12
+,,,,,,,,
+"Wednesday, January 12, 2022",9:00 AM,10:00 AM,Morning Check In,,TBD,TBD,TBD,
+"Wednesday, January 12, 2022",10:00 AM,12:00 PM,Conceptual planning,"Today we will explore how to get started.  Diana and I will demonstrate one method, over time you'll have your own process.  We will learn some best practices that are used by other coders as a statrting point for developing your own structure. In groups, you will practice developing an outline for your project and then begin to examine your dataset to identify what your outline would be. Then you'll open your own data, take a look at it and identify what needs to be changed.",TBD,TBD,TBD,
+"Wednesday, January 12, 2022",12:00 PM,12:30 PM,Morning Wrap Up,"""Nailed it!"" What have you learned, attempted, or acomplished",TBD,TBD,TBD,
+,,,,,,,,
+,,,,,,,,
+"Thursday, January 13, 2022",9:00 AM,10:00 AM,Morning Check In,,TBD,TBD,TBD,
+"Thursday, January 13, 2022",10:00 AM,12:00 PM,"Data Manipulation 1
+Lab time with 1:1 support",We are going to focus on manipulating your dataset.  You will begin to tidy your dataset so that it will be in a format that can be easily used in R.,self-paced,TBD,TBD,Go to this tutorial: https://ourcodingclub.github.io/tutorials/data-manip-intro/
+"Thursday, January 13, 2022",12:00 PM,12:30 PM,Morning Wrap Up,Share what you attempted  to code,TBD,TBD,TBD,
+,,,,,,,,
+"Tuesday, January 18, 2022",9:00 AM,10:00 AM,Morning Check In,,TBD,TBD,TBD,
+"Tuesday, January 18, 2022",10:00 AM,12:00 PM,Data Visualization,You will work with your own dataset to try to build code using some of the tools that you have learned,self-paced,TBD,TBD,Go to this tutorial:  https://ourcodingclub.github.io/tutorials/datavis/
+"Tuesday, January 18, 2022",12:00 PM,12:30 PM,Morning Wrap Up,"""Nailed it!"" What have you learned, attempted, or acomplished",TBD,TBD,TBD,
+,,,,,,,,
+"Wednesday, January 19, 2022",9:00 AM,10:00 AM,Morning Check In,,TBD,TBD,TBD,
+"Wednesday, January 19, 2022",10:00 AM,12:00 PM,Getting Started with Rmarkdown,We are going to focus on preparing reproducibile documents,self-paced,TBD,TBD,Go to this tutorial: https://ourcodingclub.github.io/tutorials/rmarkdown/
+"Wednesday, January 19, 2022",12:00 PM,12:30 PM,Morning Wrap Up,"""Nailed it!"" What have you learned, attempted, or acomplished",TBD,TBD,TBD,
+,,,,,,,,
+"Thursday, January 20, 2022",,,NOAA Focus Day,,,,,
+,,,,,,,,
+"Friday, January 21, 2022",9:00 AM,10:00 AM,Morning check in,,TBD,TBD,TBD,
+"Friday, January 21, 2022",10:00 AM,11:30 PM,Continue R markdown,Today we will all use the same simple dataset to create a document for updating TBD. ,self-paced,TBD,TBD,
+"Friday, January 21, 2022",11:30 PM,12:30 PM,Class wrap up,What have we learned?,TBD,TBD,TBD,

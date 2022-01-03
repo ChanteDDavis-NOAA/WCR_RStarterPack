@@ -27,7 +27,7 @@ library(here)
 ```{r}
 
 #Agenda <- data.frame(read_csv("./R Workshop Detailed Schedule.csv", col_names = FALSE))
-Agenda <- data.frame(read_csv("./R_Workshop_Detailed_Schedule.csv", col_names = FALSE))
+Agenda <- data.frame(read_csv("./R_Workshop_Detailed_Schedule_2022.csv", col_names = FALSE))
 # Agenda <- data.frame(read_csv(here("R Workshop Detailed Schedule.csv"), col_names = FALSE))
 names(Agenda)<-Agenda[2,]
 Agenda<-Agenda[-c(1:2),]

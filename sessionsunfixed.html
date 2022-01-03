@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Course Agenda and Lessons</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>R Workshop for Social Scientists</title>
+
+<link rel="shortcut icon" href="https://www.noaa.gov/sites/all/themes/custom/noaa/favicon.ico" />
+<link rel="manifest" href="./icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="./css/bootstrap_insta.min.css">
+    <link rel="stylesheet" href="./css/magnific_insta.css"> -->
+    <link rel="stylesheet" href="./css/style_insta.css">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.min.css">
+
+</head>
+
+
+</html>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><p><img id="logo" style="width: 20px;" src="Noaa_logo.png" /> West Coast Region Rstarter course </p></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="about.html">
+    <span class="fas fa-briefcase"></span>
+     
+    About
+  </a>
+</li>
+<li>
+  <a href="sessions.html">
+    <span class="fas fa-calendar"></span>
+     
+    Agenda
+  </a>
+</li>
+<li>
+  <a href="Get_Started.html">
+    <span class="fas fa-check"></span>
+     
+    Get started videos
+  </a>
+</li>
+<li>
+  <a href="Presenters.html">
+    <span class="fas fa-users"></span>
+     
+    Presenters
+  </a>
+</li>
+<li>
+  <a href="help.html">
+    <span class="fas fa-question"></span>
+     
+    help
+  </a>
+</li>
+<li>
+  <a href="les_BestScriptingPractices.nb.html"></a>
+</li>
+<li>
+  <a href="les_Lesson-3-More-Data-Import-Examples.html"></a>
+</li>
+<li>
+  <a href="les_sfconsmod_final_2col.html"></a>
+</li>
+<li>
+  <a href="les_sfconsmod_riskfactors_subplots.html"></a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:chante.davis@noaa.gov">
+    <span class="fas fa-envelope-o"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://chanteddavis-noaa.github.io/WCR_RStarterPack/">
+    <span class="fas fa-github"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://drive.google.com/drive/folders/1gzMhlkt-rbpKAGaf7_F9zCOjFTtdaU6T?usp=sharing">
+    <span class="fas fa-google"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Course Agenda and Lessons</h1>
+
+</div>
+
+
+<p></br></p>
+<p>All times are in Pacific Time</p>
+<p></br></p>
+<p>Let us know what you thought of the workshop by filling out of the <a href="https://forms.gle/cQGizSgEbXisE3TK8">google form</a>!</p>
+<p><em>Please click on the title to see the session description</em></p>
+<style type="text/css">
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.limit {
+  width: 100%;
+  padding: 5px 0 5px 0;
+}
+
+.workshops-button {
+  padding: 0.75em 1.25em;
+  background-color: #cccccc;
+  opacity: 0.9;
+  width: auto;
+  color: black;
+  text-align: center;
+  overflow: auto;
+}
+
+.workshops-button {
+  padding: 0.75em 1.25em;
+  background-color: #cccccc;
+  opacity: 0.9;
+  width: auto;
+  color: black;
+  text-align: center;
+  overflow: auto;
+}
+
+.left-date {
+  width: 20%;
+  float: left;
+  text-align: left;
+}
+
+.center-title {
+  width: 60%;
+  float: left;
+  text-align: left;
+  font-size: 120%;
+}
+
+.right-authors {
+  width: 20%;
+  float: right;
+  text-align: right;
+}
+
+.workshops {
+  margin: 1em 1em 0 0;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
+
+</style>
+<script type="text/javascript">
+function main() {
+  $('.schedule').hide();
+  $('.schedule').fadeIn(2000);
+  $('.workshops').hide();
+  $('.workshops-button').on('click', function() {
+    $(this).next().slideToggle(400);
+    $(this).toggleClass('active');
+  });
+}
+ 
+$(document).ready(main);
+</script>
+<div id="monday-january-3---january-6-2022" class="section level2">
+<h2>Monday, January 3 - January 6, 2022</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA-NA</div>
+<div class="center-title">
+<b>Prep week - This week please download R and Rstudio
+Show Diana or Chante your dataset, and
+Complete a tutorial introduction to Rstudio</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="na" class="section level2">
+<h2>NA</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA</div>
+<div class="center-title">
+<b>NA</b>
+</div>
+<div class="right-authors">NA</div>
+</div>
+<ul class="workshops">NA</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="tuesday-january-11-2022" class="section level2">
+<h2>Tuesday, January 11, 2022</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-9:00 - 10:00</div>
+<div class="center-title">
+<b>Welcome! - Introductions - roll call
+Today we will cover the R and Rstudio platform.   .</b>
+</div>
+<div class="right-authors">Presenter: TBD;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-12:00 PM</div>
+<div class="center-title">
+<b>Introduction to R and R studio</b>
+</div>
+<div class="right-authors">Presenter: self-paced;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops">
+<li>
+<p></p>
+<a href="https://ourcodingclub.github.io/tutorials/intro-to-r/">Go to this tutorial</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">12:00 PM-12:30 PM</div>
+<div class="center-title">
+<b>Morning Wrap Up - "Nailed it!" What have you learned, attempted, or acomplished</b>
+</div>
+<div class="right-authors">Presenter: TBD;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops">
+<li>
+<p></p>
+<a href="https://ourcodingclub.github.io/tutorials/troubleshooting/">Go to this tutorial</a>
+</li>
+</ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="wednesday-january-12-2022" class="section level2">
+<h2>Wednesday, January 12, 2022</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-10:00 AM</div>
+<div class="center-title">
+<b>Morning Check In</b>
+</div>
+<div class="right-authors">Presenter: TBD;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-12:00 PM</div>
+<div class="center-title">
+<b>Conceptual planning - Today we will explore how to get started.  Diana and I will demonstrate one method, over time you'll have your own process.  We will learn some best practices that are used by other coders as a statrting point for developing your own structure. In groups, you will practice developing an outline for your project and then begin to examine your dataset to identify what your outline would be. Then you'll open your own data, take a look at it and identify what needs to be changed.</b>
+</div>
+<div class="right-authors">Presenter: TBD;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">12:00 PM-12:30 PM</div>
+<div class="center-title">
+<b>Morning Wrap Up - "Nailed it!" What have you learned, attempted, or acomplished</b>
+</div>
+<div class="right-authors">Presenter: TBD;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="thursday-january-13-2022" class="section level2">
+<h2>Thursday, January 13, 2022</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-10:00 AM</div>
+<div class="center-title">
+<b>Morning Check In</b>
+</div>
+<div class="right-authors">Presenter: TBD;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-12:00 PM</div>
+<div class="center-title">
+<b>Data Manipulation 1
+Lab time with 1:1 support - We are going to focus on manipulating your dataset.  You will begin to tidy your dataset so that it will be in a format that can be easily used in R.</b>
+</div>
+<div class="right-authors">Presenter: self-paced;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops">
+<li>
+<p></p>
+<a href="https://ourcodingclub.github.io/tutorials/data-manip-intro/">Go to this tutorial</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">12:00 PM-12:30 PM</div>
+<div class="center-title">
+<b>Morning Wrap Up - Share what you attempted  to code</b>
+</div>
+<div class="right-authors">Presenter: TBD;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="tuesday-january-18-2022" class="section level2">
+<h2>Tuesday, January 18, 2022</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-10:00 AM</div>
+<div class="center-title">
+<b>Morning Check In</b>
+</div>
+<div class="right-authors">Presenter: TBD;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-12:00 PM</div>
+<div class="center-title">
+<b>Data Visualization - You will work with your own dataset to try to build code using some of the tools that you have learned</b>
+</div>
+<div class="right-authors">Presenter: self-paced;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops">
+<li>
+<p></p>
+<a href=" https://ourcodingclub.github.io/tutorials/datavis/">Go to this tutorial</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">12:00 PM-12:30 PM</div>
+<div class="center-title">
+<b>Morning Wrap Up - "Nailed it!" What have you learned, attempted, or acomplished</b>
+</div>
+<div class="right-authors">Presenter: TBD;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="wednesday-january-19-2022" class="section level2">
+<h2>Wednesday, January 19, 2022</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-10:00 AM</div>
+<div class="center-title">
+<b>Morning Check In</b>
+</div>
+<div class="right-authors">Presenter: TBD;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-12:00 PM</div>
+<div class="center-title">
+<b>Getting Started with Rmarkdown - We are going to focus on preparing reproducibile documents</b>
+</div>
+<div class="right-authors">Presenter: self-paced;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops">
+<li>
+<p></p>
+<a href="https://ourcodingclub.github.io/tutorials/rmarkdown/">Go to this tutorial</a>
+</li>
+</ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">12:00 PM-12:30 PM</div>
+<div class="center-title">
+<b>Morning Wrap Up - "Nailed it!" What have you learned, attempted, or acomplished</b>
+</div>
+<div class="right-authors">Presenter: TBD;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="thursday-january-20-2022" class="section level2">
+<h2>Thursday, January 20, 2022</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">NA-NA</div>
+<div class="center-title">
+<b>NOAA Focus Day</b>
+</div>
+<div class="right-authors"></div>
+</div>
+<ul class="workshops"></ul>
+</div>
+</div>
+<p><br></p>
+</div>
+<div id="friday-january-21-2022" class="section level2">
+<h2>Friday, January 21, 2022</h2>
+<div class="schedule">
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">9:00 AM-10:00 AM</div>
+<div class="center-title">
+<b>Morning check in</b>
+</div>
+<div class="right-authors">Presenter: TBD;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">10:00 AM-11:30 PM</div>
+<div class="center-title">
+<b>Continue R markdown - Today we will all use the same simple dataset to create a document for updating TBD.</b>
+</div>
+<div class="right-authors">Presenter: self-paced;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+<div class="limit">
+<div class="workshops-button">
+<div class="left-date">11:30 PM-12:30 PM</div>
+<div class="center-title">
+<b>Class wrap up - What have we learned?</b>
+</div>
+<div class="right-authors">Presenter: TBD;  Host: TBD; Help: TBD</div>
+</div>
+<ul class="workshops"></ul>
+</div>
+</div>
+<p><br></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
