@@ -3,7 +3,7 @@
 
 # R Starter Course for WCR NOAA Fisheries Management
 <br>
-<font size = 4.5> This course will be held virtuually January 12 -14, 2021
+<font size = 4.5> This course will be held virtuually January 11 - 21, 2022
 
 For more information, check out the course's website at https://chanteddavis-noaa.github.io/WCR_RStarterPack/about.html
 
