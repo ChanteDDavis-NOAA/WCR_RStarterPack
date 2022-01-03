@@ -11,7 +11,7 @@ editor_options:
 
 <br>
 
-<font size="5.5"> We are excited that you will be joing us!  The links provided on this page were created by Aaron Mamula for a NOAA workshop in 2020 titled R Workshop for Social Scientist.  We recognize that there are many different ways to code, these videos hopefully provide a place to start and we've found them very useful.
+<font size="5.5"> We are excited that you will be joing us!  The links provided on this page were compiled by Chante Davis and Diana Dishman.  We recognize that there are many different ways to code, these videos hopefully provide a place to start and we've found them very useful.
 
 <font size = 4.5>*Please click on the title to see the session description*
 
@@ -21,6 +21,7 @@ knitr::opts_chunk$set(echo = FALSE, warning=FALSE, error = FALSE, message = FALS
 library(tidyverse)
 library(lubridate)
 library(htmltools)
+library(readr)
 ```
 
 ```{r}
@@ -63,8 +64,8 @@ PreMaterial$Notes<-gsub(pattern = '"', replacement = "'", x = PreMaterial$Notes)
 #',#'tags$p("Importance Level: ', PreMaterial$`Importance Level`,'"),
 
 PreMaterial$Notes0<-paste0('tags$li(
-                            tags$p("Fun-ness: ', PreMaterial$`Fun-ness`, '"),
-                            tags$p("Suggested For: ', PreMaterial$`Suggested for`, '"),',
+                            tags$p("Time: ', PreMaterial$`Time`, '"),
+                            tags$p("Summary: ', PreMaterial$`Summary`, '"),',
                             ifelse(is.na(PreMaterial$Notes), "",
                                              paste0('
                                              tags$p("', PreMaterial$Notes, '"),
@@ -76,7 +77,7 @@ PreMaterial$Notes0<-paste0('tags$li(
 # PreMaterial$NeedToKnow<-""
 PreMaterial$Title<-#paste0(PreMaterial$`Playlist Title`," - ", 
                           (PreMaterial$Topic)
-PreMaterial$Authors<-"Aaron Mamula"
+PreMaterial$Authors<-" "
 PreMaterial<-data.frame(PreMaterial)
 rownames(PreMaterial)<-1:nrow(PreMaterial)
 ```
