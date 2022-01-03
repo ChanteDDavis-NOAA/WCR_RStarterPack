@@ -1,5 +1,5 @@
 ---
-title: "Course Agenda"
+title: "Course Agenda and Lessons"
 output:
   html_document:
     includes:
@@ -8,12 +8,15 @@ editor_options:
   chunk_output_type: console
 ---
 
+</br>
+
+All times are in Pacific Time
 
 </br>
 
+Let us know what you thought of the workshop by filling out of the [google form](https://forms.gle/cQGizSgEbXisE3TK8)!
 
 *Please click on the title to see the session description*
-<br>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning=FALSE, error = FALSE, message = FALSE)
@@ -23,11 +26,11 @@ library(htmltools)
 library(here)
 ```
 
-<br>
+
 ```{r}
 
 #Agenda <- data.frame(read_csv("./R Workshop Detailed Schedule.csv", col_names = FALSE))
-Agenda <- data.frame(read_csv("./R_Workshop_Detailed_Schedule_2022.csv", col_names = FALSE))
+Agenda <- data.frame(read_csv(here("R_Workshop_Detailed_Schedule_2022.csv"), col_names = FALSE))
 # Agenda <- data.frame(read_csv(here("R Workshop Detailed Schedule.csv"), col_names = FALSE))
 names(Agenda)<-Agenda[2,]
 Agenda<-Agenda[-c(1:2),]
@@ -54,18 +57,22 @@ Agenda$Authors<-paste0(ifelse(Agenda$Presenter %in% not0, "", paste0("Presenter:
 
 Agenda$Notes[is.na(Agenda$Notes)]<-""
 
+# counter0<-1
+
 aa<-strsplit(x = Agenda$Notes, split = "\n\n")
 for (i in 1:length(aa)){
   if (length(aa[i][[1]])!=0) {
+    # aa<-aa[i][[1]]
     for (ii in 1:length(aa[i][[1]])) {
       # dd<- aa[i][[1]][ii]
       if (grepl(pattern = "https://", x = aa[i][[1]][ii], ignore.case = T)) {
         bb<-strsplit(x = aa[i][[1]][ii], split = ": ")
-      if (grepl(pattern = ".html", x = aa[i][[1]][ii], ignore.case = T)) {
+      if (grepl(pattern = "github.com", x = aa[i][[1]][ii], ignore.case = T)) {
         htmlname<-strsplit(split = "/", x = bb[[1]][2])[[1]]
         download.file(url = bb[[1]][2], 
-                      destfile = paste0(getwd(), "/les_", htmlname[length(htmlname)]))
-        bb[[1]][2]<-paste0("les_", htmlname[length(htmlname)])
+                      destfile = paste0(getwd(), "/", htmlname[length(htmlname)]))
+        bb[[1]][2]<-paste0(htmlname[length(htmlname)])
+        # counter0<-counter0+1
       }
         # cc<-paste0('["', bb[[1]][1], '"] (', bb[[1]][2], '")')
         # cc<-paste0('<a href="', bb[[1]][2], '">', bb[[1]][1], '</a>')
@@ -99,6 +106,7 @@ Agenda$Notes<-unlist(aa)
 Agenda<-Agenda[,c("Date","Notes","Title","Authors")]
 program<-as_tibble(Agenda) #%>%
 
+days<-unique(Agenda0$Date)
 
 ```
 
@@ -178,10 +186,14 @@ function main() {
 $(document).ready(main);
 ```
 
-## Tuesday, January 12, 2021
+```{r}
+counter0<-1
+```
+
+## `r days[counter0]`
 
 ```{r}
-program1<-program[grepl(pattern = "Tuesday, January 12, 2021", x = Agenda0$Date), ]
+program1<-program[grepl(pattern = days[counter0], x = Agenda0$Date), ]
 
 div(
   class = "schedule",
@@ -202,25 +214,28 @@ div(
     )
   })
 )
+
+counter0 <- (1 + counter0)
+
+
 ```
 
 <br>
 
-
-## Wednesday, January 13, 2021
+## `r days[counter0]`
 
 ```{r}
-program1<-program[grepl(pattern = "Wednesday, January 13, 2021", x = Agenda0$Date), ]
+program1<-program[grepl(pattern = days[counter0], x = Agenda0$Date), ]
 
 div(
   class = "schedule",
   apply(program1, 1, function(event) {
     div(
       class = "limit",
-      div(class = "workshops-button",
-          div(class = "left-date",
+      div(class = "workshops-button", 
+          div(class = "left-date", 
               event[['Date']]),
-          div(class = "center-title",
+          div(class = "center-title", 
               # tags$i(event[['Title']])),
               tags$b(event[['Title']])),
           div(class = "right-authors",
@@ -231,25 +246,27 @@ div(
     )
   })
 )
+
+counter0 <- (1 + counter0)
+
 ```
 
 <br>
 
-
-## Thursday, January 14, 2021
+## `r days[counter0]`
 
 ```{r}
-program1<-program[grepl(pattern = "Thursday, January 14, 2021", x = Agenda0$Date), ]
+program1<-program[grepl(pattern = days[counter0], x = Agenda0$Date), ]
 
 div(
   class = "schedule",
   apply(program1, 1, function(event) {
     div(
       class = "limit",
-      div(class = "workshops-button",
-          div(class = "left-date",
+      div(class = "workshops-button", 
+          div(class = "left-date", 
               event[['Date']]),
-          div(class = "center-title",
+          div(class = "center-title", 
               # tags$i(event[['Title']])),
               tags$b(event[['Title']])),
           div(class = "right-authors",
@@ -260,8 +277,196 @@ div(
     )
   })
 )
+
+counter0 <- (1 + counter0)
+
 ```
 
 <br>
 
+## `r days[counter0]`
+
+```{r}
+program1<-program[grepl(pattern = days[counter0], x = Agenda0$Date), ]
+
+div(
+  class = "schedule",
+  apply(program1, 1, function(event) {
+    div(
+      class = "limit",
+      div(class = "workshops-button", 
+          div(class = "left-date", 
+              event[['Date']]),
+          div(class = "center-title", 
+              # tags$i(event[['Title']])),
+              tags$b(event[['Title']])),
+          div(class = "right-authors",
+              event[['Authors']])),
+      tags$ul(class = "workshops",
+              (eval(parse(text=event[["Notes"]])) ) )
+              # event[["Notes"]])
+    )
+  })
+)
+
+counter0 <- (1 + counter0)
+
+```
+
+<br>
+
+## `r days[counter0]`
+
+```{r}
+program1<-program[grepl(pattern = days[counter0], x = Agenda0$Date), ]
+
+div(
+  class = "schedule",
+  apply(program1, 1, function(event) {
+    div(
+      class = "limit",
+      div(class = "workshops-button", 
+          div(class = "left-date", 
+              event[['Date']]),
+          div(class = "center-title", 
+              # tags$i(event[['Title']])),
+              tags$b(event[['Title']])),
+          div(class = "right-authors",
+              event[['Authors']])),
+      tags$ul(class = "workshops",
+              (eval(parse(text=event[["Notes"]])) ) )
+              # event[["Notes"]])
+    )
+  })
+)
+
+counter0 <- (1 + counter0)
+
+```
+
+<br>
+
+## `r days[counter0]`
+
+```{r}
+program1<-program[grepl(pattern = days[counter0], x = Agenda0$Date), ]
+
+div(
+  class = "schedule",
+  apply(program1, 1, function(event) {
+    div(
+      class = "limit",
+      div(class = "workshops-button", 
+          div(class = "left-date", 
+              event[['Date']]),
+          div(class = "center-title", 
+              # tags$i(event[['Title']])),
+              tags$b(event[['Title']])),
+          div(class = "right-authors",
+              event[['Authors']])),
+      tags$ul(class = "workshops",
+              (eval(parse(text=event[["Notes"]])) ) )
+              # event[["Notes"]])
+    )
+  })
+)
+
+counter0 <- (1 + counter0)
+
+```
+
+<br>
+
+## `r days[counter0]`
+
+```{r}
+program1<-program[grepl(pattern = days[counter0], x = Agenda0$Date), ]
+
+div(
+  class = "schedule",
+  apply(program1, 1, function(event) {
+    div(
+      class = "limit",
+      div(class = "workshops-button", 
+          div(class = "left-date", 
+              event[['Date']]),
+          div(class = "center-title", 
+              # tags$i(event[['Title']])),
+              tags$b(event[['Title']])),
+          div(class = "right-authors",
+              event[['Authors']])),
+      tags$ul(class = "workshops",
+              (eval(parse(text=event[["Notes"]])) ) )
+              # event[["Notes"]])
+    )
+  })
+)
+
+counter0 <- (1 + counter0)
+
+```
+
+<br>
+
+## `r days[counter0]`
+
+```{r}
+program1<-program[grepl(pattern = days[counter0], x = Agenda0$Date), ]
+
+div(
+  class = "schedule",
+  apply(program1, 1, function(event) {
+    div(
+      class = "limit",
+      div(class = "workshops-button", 
+          div(class = "left-date", 
+              event[['Date']]),
+          div(class = "center-title", 
+              # tags$i(event[['Title']])),
+              tags$b(event[['Title']])),
+          div(class = "right-authors",
+              event[['Authors']])),
+      tags$ul(class = "workshops",
+              (eval(parse(text=event[["Notes"]])) ) )
+              # event[["Notes"]])
+    )
+  })
+)
+
+counter0 <- (1 + counter0)
+
+```
+
+<br>
+
+## `r days[counter0]`
+
+```{r}
+program1<-program[grepl(pattern = days[counter0], x = Agenda0$Date), ]
+
+div(
+  class = "schedule",
+  apply(program1, 1, function(event) {
+    div(
+      class = "limit",
+      div(class = "workshops-button", 
+          div(class = "left-date", 
+              event[['Date']]),
+          div(class = "center-title", 
+              # tags$i(event[['Title']])),
+              tags$b(event[['Title']])),
+          div(class = "right-authors",
+              event[['Authors']])),
+      tags$ul(class = "workshops",
+              (eval(parse(text=event[["Notes"]])) ) )
+              # event[["Notes"]])
+    )
+  })
+)
+
+counter0 <- (1 + counter0)
+
+```
+
+<br>
 
