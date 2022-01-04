@@ -226,3 +226,124 @@ counter<-counter + 1
 
 <br>
 
+## `r unique(PreMaterial$Playlist.Title)[counter] `
+
+```{r}
+program1<-PreMaterial[PreMaterial$Playlist.Title %in% unique(PreMaterial$Playlist.Title)[counter],]
+
+div(
+  class = "schedule",
+  apply(program1, 1, function(event) {
+    div(
+      class = "limit",
+      div(class = "workshops-button", 
+          div(class = "left-date", 
+              # (eval(parse(text=event[['NeedToKnow']])))),
+              event[['NeedToKnow']]),
+          div(class = "center-title", 
+              # tags$i(event[['Title']])),
+              tags$b(event[['Title']])),
+          div(class = "right-authors",
+              event[['Authors']])),
+      tags$ul(class = "workshops",
+              (eval(parse(text=event[["Notes0"]])) ) )
+              # event[["Notes"]])
+    )
+  })
+)
+
+counter<-counter + 1
+```
+
+<br>
+
+## `r unique(PreMaterial$Playlist.Title)[counter] `
+
+```{r}
+program1<-PreMaterial[PreMaterial$Playlist.Title %in% unique(PreMaterial$Playlist.Title)[counter],]
+
+div(
+  class = "schedule",
+  apply(program1, 1, function(event) {
+    div(
+      class = "limit",
+      div(class = "workshops-button", 
+          div(class = "left-date", 
+              # (eval(parse(text=event[['NeedToKnow']])))),
+              event[['NeedToKnow']]),
+          div(class = "center-title", 
+              # tags$i(event[['Title']])),
+              tags$b(event[['Title']])),
+          div(class = "right-authors",
+              event[['Authors']])),
+      tags$ul(class = "workshops",
+              (eval(parse(text=event[["Notes0"]])) ) )
+              # event[["Notes"]])
+    )
+  })
+)
+
+counter<-counter + 1
+```
+
+<br>
+
+## `r unique(PreMaterial$Playlist.Title)[counter] `
+
+```{r}
+program1<-PreMaterial[PreMaterial$Playlist.Title %in% unique(PreMaterial$Playlist.Title)[counter],]
+
+div(
+  class = "schedule",
+  apply(program1, 1, function(event) {
+    div(
+      class = "limit",
+      div(class = "workshops-button", 
+          div(class = "left-date", 
+              # (eval(parse(text=event[['NeedToKnow']])))),
+              event[['NeedToKnow']]),
+          div(class = "center-title", 
+              # tags$i(event[['Title']])),
+              tags$b(event[['Title']])),
+          div(class = "right-authors",
+              event[['Authors']])),
+      tags$ul(class = "workshops",
+              (eval(parse(text=event[["Notes0"]])) ) )
+              # event[["Notes"]])
+    )
+  })
+)
+
+counter<-counter + 1
+```
+
+<br>
+## `r unique(PreMaterial$Playlist.Title)[counter] `
+
+```{r}
+program1<-PreMaterial[PreMaterial$Playlist.Title %in% unique(PreMaterial$Playlist.Title)[counter],]
+
+div(
+  class = "schedule",
+  apply(program1, 1, function(event) {
+    div(
+      class = "limit",
+      div(class = "workshops-button", 
+          div(class = "left-date", 
+              # (eval(parse(text=event[['NeedToKnow']])))),
+              event[['NeedToKnow']]),
+          div(class = "center-title", 
+              # tags$i(event[['Title']])),
+              tags$b(event[['Title']])),
+          div(class = "right-authors",
+              event[['Authors']])),
+      tags$ul(class = "workshops",
+              (eval(parse(text=event[["Notes0"]])) ) )
+              # event[["Notes"]])
+    )
+  })
+)
+
+counter<-counter + 1
+```
+<br>
