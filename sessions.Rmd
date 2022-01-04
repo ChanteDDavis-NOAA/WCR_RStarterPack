@@ -8,13 +8,11 @@ editor_options:
   chunk_output_type: console
 ---
 
+## Daily Course Agenda
 </br>
 
 All times are in Pacific Time
 
-</br>
-
-#Let us know what you thought of the workshop by filling out of the [google form](https://forms.gle/cQGizSgEbXisE3TK8)!
 
 *Please click on the title to see the session description*
 
@@ -51,7 +49,7 @@ Agenda$Title<-paste0(Agenda$`Course Segment`,
 Agenda$Authors<-paste0(ifelse(Agenda$Presenter %in% not0, "", paste0("Presenter: ", Agenda$Presenter)), #Presenter
                        ifelse((Agenda$`Chat/Q&A` %in% not0), "", "; "), # ; 
                        ifelse((Agenda$Presenter %in% not0), "", " "), # Space
-                       ifelse(Agenda$Host %in% not0, "", paste0("Host: ", Agenda$Host)), # Host
+                       #ifelse(Agenda$Host %in% not0, "", paste0("Host: ", Agenda$Host)), # Host
                        ifelse((Agenda$`Chat/Q&A` %in% not0), "", "; "), # ; 
                        ifelse(Agenda$`Chat/Q&A` %in% not0, "", paste0("Help: ", Agenda$`Chat/Q&A`)) ) # Help
 

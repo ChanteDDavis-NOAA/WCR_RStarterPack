@@ -8,6 +8,7 @@ editor_options:
   chunk_output_type: console
 ---
  
+## Extras
 
 <br>
 
@@ -70,10 +71,8 @@ PreMaterial$Notes0<-paste0('tags$li(
                                              paste0('
                                             tags$p("', PreMaterial$Notes, '"),
                                             ')),
-                            'tags$a(href="', PreMaterial$`Video Link`, '", "Video Link"),
-                           tags$p(""),
-                           tags$a(href="', PreMaterial$Playlist, '", "Playlist Link"))')
-
+                            'tags$a(href="', PreMaterial$`web Link`, '", "Web Link"))')
+                            
 # PreMaterial$NeedToKnow<-""
 PreMaterial$Title<-#paste0(PreMaterial$`Playlist Title`," - ", 
                           (PreMaterial$Topic)
