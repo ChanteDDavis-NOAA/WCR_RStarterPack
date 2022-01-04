@@ -25,7 +25,7 @@ library(readr)
 ```
 
 ```{r}
-PreMaterial <- data.frame(read_csv("./R Workshop Video Links.csv", col_names = FALSE))
+PreMaterial <- data.frame(read_csv("./starteR_Video_link_2022.csv", col_names = FALSE))
 names(PreMaterial)<-PreMaterial[2,]
 PreMaterial<-PreMaterial[-c(1:3),]
 PreMaterial<-PreMaterial[!(is.na(PreMaterial$Topic)),]
@@ -39,7 +39,7 @@ PreMaterial0 <- PreMaterial
 #                                ", PreMaterial$`Importance Level`))')
 PreMaterial$NeedToKnow<-c(paste0("Importance Level: ",PreMaterial$`Importance Level`[1]), PreMaterial$`Importance Level`[-1])
 
-PreMaterial$Notes<-gsub(pattern = '"', replacement = "'", x = PreMaterial$Notes)
+#PreMaterial$Notes<-gsub(pattern = '"', replacement = "'", x = PreMaterial$Notes)
 
 # PreMaterial$Notes0<-paste0('tags$li(', #paste(
 #                            paste0('tags$p("', PreMaterial$NeedToKnow, '"),'),
@@ -68,11 +68,11 @@ PreMaterial$Notes0<-paste0('tags$li(
                             tags$p("Summary: ', PreMaterial$`Summary`, '"),',
                             ifelse(is.na(PreMaterial$Notes), "",
                                              paste0('
-                                             tags$p("', PreMaterial$Notes, '"),
-                                             ')),
+                                            tags$p("', PreMaterial$Notes, '"),
+                                            ')),
                             'tags$a(href="', PreMaterial$`Video Link`, '", "Video Link"),
-                            tags$p(""),
-                            tags$a(href="', PreMaterial$Playlist, '", "Playlist Link"))')
+                           tags$p(""),
+                           tags$a(href="', PreMaterial$Playlist, '", "Playlist Link"))')
 
 # PreMaterial$NeedToKnow<-""
 PreMaterial$Title<-#paste0(PreMaterial$`Playlist Title`," - ", 
