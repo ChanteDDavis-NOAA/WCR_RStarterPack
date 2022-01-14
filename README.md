@@ -5,7 +5,7 @@
 <br>
 <font size = 4.5> This course will be held virtuually January 11 - 21, 2022
 
-For more information, check out the course's website at https://chanteddavis-noaa.github.io/WCR_RStarterPack/about.html
+For more information, check out the course's website at https://chanteddavis-noaa.github.io/WCR_RStarterPack_2022/
 
 <br>
 
