@@ -26,7 +26,7 @@ library(readr)
 ```
 
 ```{r}
-PreMaterial <- data.frame(read_csv("./starteR_Video_link_2022.csv", col_names = FALSE))
+PreMaterial <- data.frame(read_csv("./StarteR_Video_link_2022.csv", col_names = FALSE))
 names(PreMaterial)<-PreMaterial[2,]
 PreMaterial<-PreMaterial[-c(1:3),]
 PreMaterial<-PreMaterial[!(is.na(PreMaterial$Topic)),]
@@ -71,7 +71,7 @@ PreMaterial$Notes0<-paste0('tags$li(
                                              paste0('
                                             tags$p("', PreMaterial$Notes, '"),
                                             ')),
-                            'tags$a(href="', PreMaterial$`web Link`, '", "Web Link"))')
+                            'tags$a(href="', PreMaterial$`Web link`, '", "Web Link"))')
                             
 # PreMaterial$NeedToKnow<-""
 PreMaterial$Title<-#paste0(PreMaterial$`Playlist Title`," - ", 
